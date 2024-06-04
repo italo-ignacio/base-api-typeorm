@@ -1,7 +1,7 @@
 import { errorLogger, messageErrorResponse, notFound, ok } from '@main/utils';
 import { userFindParams } from '@data/search';
 import { userRepository } from '@repository/user';
-import type { Controller } from '@application/protocols';
+import type { Controller } from '@domain/protocols';
 import type { Request, Response } from 'express';
 
 /**

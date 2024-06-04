@@ -9,7 +9,7 @@ import { existsSync, mkdirSync } from 'fs';
 import { messages } from '@domain/helpers';
 import multer, { MulterError, diskStorage } from 'multer';
 import path from 'path';
-import type { Controller } from '@application/protocols';
+import type { Controller } from '@domain/protocols';
 import type { NextFunction, Request, Response } from 'express';
 
 const checkTempStorageDir = (): void => {

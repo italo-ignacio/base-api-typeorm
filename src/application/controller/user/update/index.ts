@@ -13,7 +13,7 @@ import { hash } from 'bcrypt';
 import { messages } from '@domain/helpers';
 import { updateUserSchema } from '@data/validation';
 import { userRepository } from '@repository/user';
-import type { Controller } from '@application/protocols';
+import type { Controller } from '@domain/protocols';
 import type { Request, Response } from 'express';
 
 interface Body {

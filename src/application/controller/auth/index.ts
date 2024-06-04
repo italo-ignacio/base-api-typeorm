@@ -12,7 +12,7 @@ import { compare } from 'bcrypt';
 import { messages } from '@domain/helpers';
 import { userFindParams } from '@data/search';
 import { userRepository } from '@repository/user';
-import type { Controller } from '@application/protocols';
+import type { Controller } from '@domain/protocols';
 import type { Request, Response } from 'express';
 
 interface Body {

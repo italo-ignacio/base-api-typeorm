@@ -2,7 +2,7 @@ import { badRequest, errorLogger, forbidden, ok } from '@main/utils';
 import { messages } from '@domain/helpers';
 import { userIsOwner } from '@application/helper';
 import { userRepository } from '@repository/user';
-import type { Controller } from '@application/protocols';
+import type { Controller } from '@domain/protocols';
 import type { Request, Response } from 'express';
 
 /**

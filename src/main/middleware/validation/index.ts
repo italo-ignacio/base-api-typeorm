@@ -4,7 +4,7 @@ import { UserEntity } from '@entity/user';
 import { env } from '@main/config/env';
 import { errorLogger, removeBearer, unauthorized } from '@main/utils';
 import { verify } from 'jsonwebtoken';
-import type { Controller } from '@application/protocols';
+import type { Controller } from '@domain/protocols';
 import type { NextFunction, Request, Response } from 'express';
 import type { tokenInput } from '@domain/token';
 
