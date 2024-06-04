@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "src",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "lib": ["ES6"],
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "noImplicitAny": true,
+    "noEmit": false,
+    "noFallthroughCasesInSwitch": true,
+    "outDir": "build",
+    "paths": {
+      "@main/*": ["main/*"],
+      "@data/*": ["data/*"],
+      "@domain/*": ["domain/*"],
+      "@entity/*": ["entity/*"],
+      "@repository/*": ["repository/*"],
+      "@infra/*": ["infra/*"],
+      "@application/*": ["application/*"]
+    },
+    "resolveJsonModule": true,
+    "rootDir": "src",
+    "skipLibCheck": false,
+    "strict": true,
+    "target": "ES6",
+    "useDefineForClassFields": true
+  },
+  "include": ["src"]
+}

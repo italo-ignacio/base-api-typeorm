@@ -1,0 +1,81 @@
+{
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "css.lint.unknownAtRules": "ignore",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "eslint.validate": ["javascript", "typescript"],
+  "explorer.compactFolders": false,
+  "files.eol": "\n",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "material-icon-theme.folders.associations": {
+    "error-message-constructor": "error",
+    "util-type": "typescript",
+    "generic-protocol": "resource",
+    "crypto": "secure",
+    "use-case": "packages",
+    "repository": "mappings",
+    "domain": "interface",
+    "infra": "api",
+    "mock": "less",
+    "main": "global",
+    "http": "server",
+    "presentation": "layout",
+    "entity": "class",
+    "generic": "import",
+    "seed": "review",
+    "in-memory": "test",
+    "route": "routes",
+    "migrations": "update",
+    "*-repository": "database",
+    "dto": "controller",
+    "format": "core"
+  },
+  "material-icon-theme.files.associations": {
+    "*.helper.ts": "smarty",
+    "*.enum.ts": "posthtml",
+    "*.seed.ts": "disc",
+    "*.constant.ts": "posthtml",
+    "*.error.ts": "stryker",
+    "*.error-message.ts": "stryker",
+    "*.domain.ts": "lib",
+    "*.model.ts": "pawn",
+    "*.config.ts": "settings",
+    "*.controller.ts": "nest-controller",
+    "*.middleware.ts": "pipeline",
+    "*.dto.ts": "contributing",
+    "*.payload.ts": "commitlint",
+    "*.protocol.ts": "contributing",
+    "*.service.ts": "nest-service",
+    "*.module.ts": "nest-module",
+    "*.use-case.ts": "terraform",
+    "*.infra.ts": "cabal",
+    "*.fake-repository.ts": "parcel",
+    "*.repository.ts": "database",
+    "*.mock.ts": "less",
+    "server.ts": "serverless"
+  },
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "workbench.iconTheme": "material-icon-theme",
+  "cSpell.words": ["cnpj", "VEHICLESIZE", "VEHICLETYPE", "NOTCHECKED"]
+}
